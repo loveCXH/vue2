@@ -4,7 +4,7 @@ var fs = require("fs")
 const relativePath = '../src/md/articles/'
 
 const replaceArticleName = function (articleName) {
-  return articleName.replace(' ', '_').replace('-', '_')
+  return articleName.replace(' ', '_')
 }
 
 const getArticleList = function () {
